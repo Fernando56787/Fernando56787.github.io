@@ -1,0 +1,38 @@
+ .diccionario-item {
+      display: inline-block;
+      margin: 10px;
+      padding: 20px;
+      border: 2px solid #dee2e6;
+      border-radius: 10px;
+      background-color: #f8f9fa;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .diccionario-item:hover {
+      transform: scale(1.05);
+      background-color: #e2e6ea;
+    }
+
+    .diccionario-section {
+      padding: 40px;
+      background-color: #f1f1f1;
+    }
+
+    .diccionario-title {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .diccionario-item {
+        background-color: #fdfdfd;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+        }
+
+    .diccionario-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    background-color: #f8f9fa;
+    }

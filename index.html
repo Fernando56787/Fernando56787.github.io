@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Euler</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="calculadora.css">
+  <link href="assets/css/diccionario.css">
+  <link href="assets/css/calculadoras.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexBiz
+  * Template URL: https://bootstrapmade.com/flexbiz-bootstrap-business-template/
+  * Updated: Aug 04 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+    <div class="container-fluid container-xl position-relative">
+
+      <div class="top-row d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Euler</h1>
+        </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="nav-wrap">
+      <div class="container d-flex justify-content-center position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Biografía</a></li>
+            <li><a href="#about">Calculadora</a></li>
+            <li><a href="#team">Método Numérico</a></li>
+            <li><a href="#ejercicios">Ejercicios</a></li>
+              <li><a href="#diccionario-euler">Diccionario</a></li> 
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="hero-card shadow-sm" data-aos="fade-right" data-aos-delay="150">
+              <div class="eyebrow d-inline-flex align-items-center mb-3">
+                <i class="bi bi-stars me-2"></i>
+              </div>
+              <div class="content">
+                <h2 class="display-5 fw-bold mb-3">Euler, Leonhard</h2>
+                <p class="lead mb-4">Euler, Leonhard. Nació el 15 de abril de 1707 en Basilea, Suiza, y murió el 18 de septiembre de 1783 en San Petersburgo, Rusia. Cuando cumplió un año, la familia Euler se mudó a Riehen, en donde Leonhard creció. De su padre, que sabía algo de matemáticas, adquirió sus primeros conocimientos en esta ciencia y otros temas. Euler realizó descubrimientos revolucionarios en tantas áreas que es imposible resumirlos todos.</p>
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="https://cdn.kastatic.org/ka-youtube-converted/q_WiROrVc0M.mp4/q_WiROrVc0M.mp4#t=0" class="glightbox btn-video d-inline-flex align-items-center">
+                    <span class="play-icon d-inline-flex align-items-center justify-content-center me-2">
+                      <i class="bi bi-play-fill"></i>
+                    </span>
+                    <span>Método de Euler</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="media-stack" data-aos="zoom-in" data-aos-delay="200">
+              <figure class="media primary shadow-sm">
+                <img src="assets/img/illustration/Euler_16.jpg" class="img-fluid" alt="Hero visual">
+              </figure>
+              <figure class="media secondary shadow-sm">
+                <img src="assets/img/illustration/euler.jpg" class="img-fluid" alt="Supporting visual">
+              </figure>
+              <div class="floating-badge d-flex align-items-center shadow-sm" data-aos="fade-down" data-aos-delay="300">
+                <i class="bi bi-award me-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-stack"></i>
+              </div>
+              <h3>Matemáticas Puras</h3>
+              <li>La identidad de Euler e^(i*pi) + 1 = 0, considerada la ecuación más hermosa de las matemáticas</li>
+              <li>Fórmula de Euler V-E+F=2 que relaciona vértices, aristas y caras de un poliedro</li>
+              <li>La función totient de Euler phi(n) contando números relativamente primos</li>
+              <li>La constante e de Euler, la base del logaritmo natural</li>
+              <li>Estableciendo el uso de i para representar la unidad imaginaria</li>
+              <li>Estandarizar muchas notaciones matemáticas modernas como Sigma para sumas, f(x) para funciones, etc.</li>
+              <div class="card-links">
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3>Estado del Arte</h3>
+              <li>Astronomía: Calcular las órbitas de cometas y planetas, explicar las mareas, observar la aberración de la luz de las estrellas.</li>
+              <li>Óptica: Mejora del diseño de telescopios y microscopios, estudio de la teoría ondulatoria de la luz.</li>
+              <li>Física: Desarrollo de la teoría cinética de los gases, explicación de la acción capilar, investigación de la elasticidad.</li>
+              <li>Cartografía: mejora de las proyecciones de mapas, las técnicas de medición y los cálculos de longitud</li>
+              <li>Ciencia naval: Diseño de barcos y hélices, estudio de cuerpos flotantes y dinámica de fluidos.</li>
+               <div class="card-links">
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <h3>Números</h3>
+              <li>Euler escribió 866 libros y artículos con un total de más de 25.000 páginas.</li>
+              <li>Estos se distribuyen en 14 campos disciplinarios que incluyen matemáticas, mecánica, astronomía, física y filosofía.</li>
+              <li>Fue autor de 55 tratados extensos y más de 800 obras más breves.</li>
+              <li>Aproximadamente un tercio de su obra fue escrita en latín, otro tercio en francés y el resto en alemán.</li>
+              <li>Se estima que Euler fue responsable de un tercio de todas las publicaciones de física y matemáticas en Europa entre 1726 y 1800.</li>
+              <li>Hasta ahora se han publicado 76 volúmenes de su Opera Omnia, y aún quedan varios más por publicar.</li>
+              <li>Su producción publicada combinada ocupa aproximadamente entre 60 y 80 volúmenes en cuarto.</li>
+              <div class="card-links">
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <h3>AI Integration</h3>
+              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+              <div class="card-links">
+                <a href="#" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-cloud-arrow-up"></i>
+              </div>
+              <h3>Cloud Services</h3>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>
+              <div class="card-links">
+                <a href="#" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h3>Process Automation</h3>
+              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+              <div class="card-links">
+                <a href="#" class="link-item">
+                  Learn More
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- About Section -->
+
+<section id="about" class="py-5 bg-white text-dark">
+  <div class="container">
+    <!-- Título -->
+    <h1 class="text-center mb-5 fw-bold text-uppercase border-bottom pb-2 text-black">Método de Euler</h1>
+
+    <!-- FORMULARIO 1 -->
+    <div class="card shadow border-dark mb-5">
+      <div class="card-body">
+        <form id="eulerForm">
+          <div class="mb-3">
+            <label for="formula" class="form-label fw-semibold">Función f(x, y)</label>
+            <textarea id="formula" class="form-control border-dark" rows="3" placeholder="Ejemplo: 2x^2 + 3y^2 - 2" required></textarea>
+          </div>
+
+          <!-- Teclado Virtual -->
+          <div id="teclado-virtual" class="mb-3 d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="^2">²</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="^3">³</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="√(">√</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="+">+</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="-">−</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="/">/</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="*">*</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="(">(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert=")">)</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="x">x</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="y">y</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="sen(">sen(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="cos(">cos(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="tan(">tan(</button>
+            <button type="button" class="btn btn-outline-danger btn-sm" id="btn-borrar">← Borrar</button>
+          </div>
+
+          <!-- Parámetros -->
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <label for="x0" class="form-label">x₀</label>
+              <input type="number" step="any" id="x0" class="form-control border-dark" placeholder="Ejemplo: 0" required />
+            </div>
+            <div class="col-md-4">
+              <label for="y0" class="form-label">y₀</label>
+              <input type="number" step="any" id="y0" class="form-control border-dark" placeholder="Ejemplo: 2" required />
+            </div>
+            <div class="col-md-4">
+              <label for="h" class="form-label">Paso h</label>
+              <input type="number" step="any" id="h" class="form-control border-dark" placeholder="Ejemplo: 0.1" required />
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="n" class="form-label">Número de iteraciones</label>
+            <input type="number" id="n" class="form-control border-dark" placeholder="Ejemplo: 10" required />
+          </div>
+
+          <!-- Botones -->
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-outline-danger w-50 fw-bold">Calcular</button>
+            <button type="reset" class="btn btn-outline-dark w-50">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="resultado" class="mb-5 fs-5 fw-medium text-center">Resultados...</div>
+    <canvas id="graficaEuler" height="200" class="mb-5"></canvas>
+
+    <!-- FORMULARIO 2 -->
+    <h1 class="text-center mb-5 fw-bold text-uppercase border-bottom pb-2 text-black">Método de Euler - aproximación de X</h1>
+
+    <div class="card shadow border-black mb-5">
+      <div class="card-body">
+        <form id="eulerForm2">
+          <div class="mb-3">
+            <label for="formula2" class="form-label fw-semibold">Función f(x, y)</label>
+            <textarea id="formula2" class="form-control border-dark" rows="3" placeholder="Ejemplo: 2x^2 + 3y^2 - 2" required></textarea>
+          </div>
+
+          <!-- Teclado Virtual -->
+          <div id="teclado-virtual-2" class="mb-3 d-flex flex-wrap gap-2">
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="^2">²</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="^3">³</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="√(">√</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="+">+</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="-">−</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="/">/</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="*">*</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="(">(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert=")">)</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="x">x</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="y">y</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="sen(">sen(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="cos(">cos(</button>
+            <button type="button" class="btn btn-outline-dark btn-sm" data-insert="tan(">tan(</button>
+            <button type="button" class="btn btn-outline-danger btn-sm" id="btn-borrar-2">← Borrar</button>
+          </div>
+
+          <!-- Parámetros -->
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <label for="x0_2" class="form-label">x₀</label>
+              <input type="number" step="any" id="x0_2" class="form-control border-dark" placeholder="Ejemplo: 0" required />
+            </div>
+            <div class="col-md-4">
+              <label for="y0_2" class="form-label">y₀</label>
+              <input type="number" step="any" id="y0_2" class="form-control border-dark" placeholder="Ejemplo: 2" required />
+            </div>
+            <div class="col-md-4">
+              <label for="h_2" class="form-label">Paso h</label>
+              <input type="number" step="any" id="h_2" class="form-control border-dark" placeholder="Ejemplo: 0.1" required />
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="xFinal" class="form-label">Aproximación final de x</label>
+            <input type="number" step="any" id="xFinal" class="form-control border-dark" placeholder="Ejemplo: 1.5" required />
+          </div>
+
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger w-50 fw-bold">Calcular</button>
+            <button type="reset" class="btn btn-outline-dark w-50">Limpiar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="resultado2" class="fs-5 fw-medium text-center">Resultados...</div>
+    <canvas id="graficaEuler2" height="200"></canvas>
+  </div>
+</section>
+
+<!-- Método Numérico -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Método Numérico</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 align-items-stretch">
+
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="150">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M1.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Formular la EDO:</h3>
+                <p class="member-bio">Comience teniendo una EDO dada en la forma dy/dx = f(x, y) , junto con una condición inicial que especifica el valor de y en un valor x dado (por ejemplo, y(x₀) = y₀ ).</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="200">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M2.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Elija el tamaño del paso:</h3>
+                <p class="member-bio">Determine el tamaño de paso deseado (h) para dividir el intervalo de interés en intervalos más pequeños. Un tamaño de paso menor generalmente produce resultados más precisos, pero aumenta el esfuerzo computacional.</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="250">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M3.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Configurar la discretización:</h3>
+                <p class="member-bio">Define una secuencia de valores x que comienza desde el x₀ inicial y se incrementa en el tamaño de paso h : x₀, x₁ = x₀ + h, x₂ = x₁ + h , y así sucesivamente, hasta alcanzar el punto final deseado.</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="300">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M4.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Inicializar la solución:</h3>
+                <p class="member-bio">Establezca el valor de la solución inicial en la condición inicial dada: y(x₀) = y₀.</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="300">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M5.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Repetir la iteración:</h3>
+                <p class="member-bio">Continúe iterando el método pasando al siguiente valor de x en la secuencia y actualizando la solución con la derivada calculada y el tamaño del paso . Repita este proceso hasta alcanzar el punto final deseado.</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="300">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M6.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Generar la solución:</h3>
+                <p class="member-bio">Una vez completada la iteración, el conjunto final de pares (x, y) representa la aproximación numérica de la solución de la EDO dentro del intervalo especificado.</p>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="member-card h-100" data-aos="zoom-in" data-aos-delay="300">
+              <figure class="member-media" style="background: white">
+                <img src="assets/img/metodoN/M7.svg" class="img-fluid" alt="Team member portrait">
+              </figure>
+              <div class="member-content">
+                <h3 class="member-name">Iterar el método:</h3>
+                <p class="member-bio">Para cada xᵢ en la secuencia de valores x (desde x₀ hasta el punto final), aplique los siguientes pasos:</p><br>
+                <li><b>Evalúa la derivada:</b> Calcula la derivada f(x, y) en los valores xᵢ e y actuales.</li>
+                <li><b>Actualizar la solución:</b> Multiplicar la derivada por el tamaño del paso (h) y sumar el resultado al valor de la solución anterior. Esto da como resultado la siguiente aproximación de la solución: yᵢ₊₁ = yᵢ + h * f(xᵢ, yᵢ).</li>
+              </div>
+            </article><!-- End Team Member -->
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Team Section -->
+
+
+    <section id="ejercicios" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Ejercicios</h2>
+        <p>Pon aprueba tus habilidades</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <div class="faq-wrapper">
+
+              <div class="faq-item faq-active">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>Ejercicio 1: dy/dx = x + y <br> Condición inicial: y(0) = 1<br>
+                      Paso h = 0.1, <br>calcular hasta x = 0.3</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p><b>Paso 1:</b> Identificar los valores a partir del problema. <br>
+                    <li>x0=0, y0=1</li>
+                    <li>f(x,y)=x+y</li><br>
+                    <b>Paso 2:</b> Aplicar la siguiente formula general <br>
+                      yn+1=yn+h⋅f(xn,yn)
+                      <br> Donde: <br>
+                      <li>h es el tamaño del paso</li>
+                      <li>xn+1=xn+h</li>
+                      <li>yn es el valor aproximado de y(xn).</li> <br>
+                      <b>Paso 3:</b> Se sustituyen valores y se itera hasta x = 0.3
+                      <img src="assets/img/ejercicios/1.png" alt=""> <br>
+                      Obteniendo que el resultado aproximado en x = 0.3: y ≈ 1.362</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+              <div class="faq-item faq-active">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>Ejercicio 2: dy/dx = 2xy<br>Condición inicial: y(1) = 1<br>
+                      Paso h = 0.1,<br>calcular hasta x = 1.5</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p><b>Paso 1:</b>Identificar los valores a partir del problema.<br>
+                    <li>x0=1, y0=1</li>
+                    <li>f(x,y)= 2xy</li><br>
+                    <b>Paso 2:</b>Aplicar la siguiente formula general<br>
+                      yn+1=yn+h⋅f(xn,yn)
+                      <br> Donde: <br>
+                      <li>h es el tamaño del paso</li>
+                      <li>xn+1=xn+h</li>
+                      <li>yn es el valor aproximado de y(xn).</li> <br>
+                      <b>Paso 3:</b> Se sustituyen valores y se itera hasta x = 1.5
+                      <img src="assets/img/ejercicios/2.png" alt=""> <br>
+                      Obteniendo que el resultado aproximado en x = 1.5: y ≈ 2.9278</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+              <div class="faq-item faq-active">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>Ejercicio 3: dy/dx = 2x² + 3y² - 2<br>Condición inicial: y(2) = 1<br>
+                      Paso h = 0.05,<br>calcular hasta x = 2.15</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p><b>Paso 1:</b>Identificar los valores a partir del problema.<br>
+                    <li>x0=2, y0=1</li>
+                    <li>f(x,y)= 2x² + 3y² - 2</li><br>
+                    <b>Paso 2:</b>Aplicar la siguiente formula general<br>
+                      yn+1=yn+h⋅f(xn,yn)
+                      <br> Donde: <br>
+                      <li>h es el tamaño del paso,</li>
+                      <li>xn+1=xn+h</li>
+                      <li>yn es el valor aproximado de y(xn).</li> <br>
+                      <b>Paso 3:</b>Se sustituyen valores y se itera hasta x = 2.15
+                      <img src="assets/img/ejercicios/3.png" alt=""> <br>
+                      Obteniendo que el resultado aproximado en x = 2.15: y ≈ 3.0790</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    
+
+    <!-- Diccionario -->
+<section id="diccionario-euler" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Diccionario del Método de Euler</h2>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Variable dependiente, representa la solución que se busca.">
+          <span class="fs-3 fw-semibold">y</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Variable independiente, comúnmente tiempo o posición.">
+          <span class="fs-3 fw-semibold">x</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Valor inicial de x.">
+          <span class="fs-3 fw-semibold">x₀</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Valor inicial de y.">
+          <span class="fs-3 fw-semibold">y₀</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Tamaño del paso h, determina la precisión del método.">
+          <span class="fs-3 fw-semibold">h</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card text-center p-3 shadow-sm border-0 diccionario-item" data-bs-toggle="tooltip" title="Función derivada que se evalúa en cada iteración.">
+          <span class="fs-3 fw-semibold">f(x, y)</span>
+        </div>
+      </div>
+
+      <!-- Elemento -->
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card text-center p-4 shadow border-0 bg-white diccionario-item" data-bs-toggle="tooltip" title="Fórmula principal del método de Euler.">
+          <span class="fs-5 fw-semibold">yₙ₊₁ = yₙ + h · f(xₙ, yₙ)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/diccionario.js"></script>
+  <script src="assets/js/calculadora2.js"></script>
+
+</body>
+
+</html>
